@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* СТИЛИ ДЛЯ ШАПКИ ЙОУ */
+header {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 204px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.logo img {
+    margin-right: 7px;
+}
+
+.logo h1 {
+    font-weight: 700;
+    color: #274C5B;
+    font-size: 38px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+}
+
+nav ul li {
+    margin-right: 45px;
+    display: flex;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cart-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    width: 376px;
+    height: 66px !important;
+    background-color: #FAFAFA;
+    border-radius: 36px;
+    border: none;
+    align-items: center;
+}
+
+.search-icon {
+    width: 56px;
+    height: 56px;
+    background-color: #7EB693;
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.search-input {
+    width: 290px;
+    height: 40px;
+    border: none;
+    border-radius: 36px;
+    background-color: #FAFAFA;
+    color: #274C5B;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.cart-bar {
+    width: 159px;
+    height: 66px;
+    /* background-color: #FAFAFA; */
+    border: 2px solid #E0E0E0;
+    border-radius: 33px;
+    align-items: center;
+    padding-left: 6px;
+    display: flex;
+    margin-left: 18px;
+}
+
+.cart-icon {
+    width: 56px;
+    height: 56px;
+    background-color: #274C5B;
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.cart-bar p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #274C5B;
+}
+
+/* СТИЛИ ДЛЯ 1 БЛОКА ЙОУ */
+.hero {
+    background-image: url(img/fruits_background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 247px;
+    padding-left: 260px;
+    padding-bottom: 246px;
+}
+
+.content-health p {
+    font-family: "Yellowtail", cursive;
+    color: #68A47F;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.content-health h1 {
+    font-size: 70px;
+    font-weight: 800;
+    font-size: 70px;
+    font-family: 'Roboto';
+    color: #274C5B;
+    margin-bottom: 23px;
+}
+
+.content-health button {
+    background-color: #EFD372;
+    height: 79px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    color: #274C5B;
+    border-radius: 16px;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
+
+.content-health button p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #274C5B;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/* СТИЛИ ДЛЯ 2 БЛОКА ЙОУ */
+
+.columns-info {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 154px;
+    margin-bottom: 190px;
+}
+
+.col-1 {
+    background-image: url(img/first_col.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 682px;
+    height: 367px;
+    border-radius: 36px;
+    margin-right: 36px;
+    padding-top: 109px;
+    padding-left: 54px;
+}
+
+.col-1 p {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    color: white;
+}
+
+.col-1 h1 {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.col-2 {
+    background-image: url(img/second_col.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 682px;
+    height: 367px;
+    border-radius: 36px;
+    padding-top: 109px;
+    padding-left: 54px;
+}
+
+.col-2 p {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    color: #7EB693;
+}
+
+.col-2 h1 {
+    font-family: "Roboto";
+    color: #274C5B;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+/* СТИЛИ ДЛЯ 3 БЛОКА ЙОУ */
+.about-us {
+    background-color: #F9F8F8;
+    height: 1067px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.content-about-us label {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    color: #7EB693;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.content-about-us h1 {
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+.content-about-us p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #525C60;
+    font-weight: 400;
+    margin-bottom: 46px;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.row-1 img {
+    width: 101px;
+    height: 101px;
+}
+
+.row-1 h5 {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 7px;
+    margin-left: 19px;
+}
+
+.row-1 p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #525C60;
+    font-weight: 400;
+    margin-left: 19px;
+}
+
+.row-2 {
+    display: flex;
+    margin-bottom: 46px;
+}
+
+.row-2 img {
+    width: 101px;
+    height: 101px;
+}
+
+.row-2 h5 {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 7px;
+    margin-left: 19px;
+}
+
+.row-2 p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #525C60;
+    font-weight: 400;
+    margin-left: 19px;
+}
+
+.content-about-us button {
+    width: 220px;
+    height: 79px;
+    background-color: #274C5B;
+    border-radius: 16px;
+    display: flex;
+    border: none;
+
+    padding-top: 28px;
+    padding-left: 50px;
+}
+
+.content-about-us button p {
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.content-about-us button img {
+    margin-top: 3px;
+}
+
+/* СТИЛИ ДЛЯ 4 БЛОКА ЙОУ */
+
+.categories {
+    justify-content: center;
+    align-items: center;
+    margin-top: 154px;
+    margin-bottom: 190px;
+}
+
+.categories label {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    color: #7EB693;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.categories h1 {
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.rows{
+    display: flex;
+}
+
+.card{
+    width: 335px;
+    height: 483px;
+    border-radius: 30px;
+    background-color: #F9F8F8;
+}
+
+.card h1{
+    font-family: "Roboto";
+    color: #274C5B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.border{
+    height: 31px;
+    width: 96px;
+    background-color: #274C5B;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.border p{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.price{
+    display: flex;
+}
