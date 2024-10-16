@@ -167,6 +167,7 @@ nav ul li a {
     align-items: center;
     border: none;
     justify-content: center;
+    cursor: pointer;
 }
 
 .content-health button p {
@@ -332,7 +333,7 @@ nav ul li a {
     border-radius: 16px;
     display: flex;
     border: none;
-
+    cursor: pointer;
     padding-top: 28px;
     padding-left: 50px;
 }
@@ -358,7 +359,253 @@ nav ul li a {
     margin-bottom: 190px;
 }
 
-.categories label {
+.categories p {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    color: #7EB693;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.main-text {
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+}
+
+.rows hr {
+    width: 275px;
+    border-top: 1px solid #DEDDDD;
+    margin: 0 auto;
+}
+
+.card {
+    width: 335px;
+    height: 483px;
+    border-radius: 30px;
+    background-color: #F9F8F8;
+    margin: 20px;
+}
+
+.card h1 {
+    font-family: "Roboto";
+    color: #274C5B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    margin-left: 30px;
+}
+
+.border {
+    height: 31px;
+    width: 96px;
+    background-color: #274C5B;
+    border-radius: 8px;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 13px;
+    margin-top: 29px;
+}
+
+.border p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price p {
+    text-decoration: line-through;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #B8B8B8;
+    margin-right: 8px;
+    margin-top: 9px;
+}
+
+.price h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #274C5B;
+    margin-bottom: 0;
+    margin-right: 81px;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+.product {
+    margin-top: 9px;
+    width: 90%;
+}
+
+.btn-categories {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 79px;
+    background-color: #274C5B;
+    border-radius: 16px;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 121px;
+}
+
+.btn-categories p {
+    font-family: "Roboto";
+    color: white;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.grids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* СТИЛИ ДЛЯ 5 БЛОКА ЙОУ */
+.testimonial {
+    background-image: url('img/background_testimotionals.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 164px;
+    padding-bottom: 165px;
+}
+
+.testimonial label {
+    font-size: 24px;
+    font-family: "Yellowtail", cursive;
+    color: #7EB693;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.testimonial h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.testimonial .avatar {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial .stars {
+    margin-bottom: 25px;
+    width: 4%;
+}
+
+.simple-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #525C60;
+    margin-bottom: 20px;
+}
+
+.text-fullname {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #274C5B;
+    margin-bottom: 5px;
+}
+
+.text-role {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #525C60;
+    margin-bottom: 19px;
+}
+
+.navigation {
+    margin-bottom: 102px;
+}
+
+.testimonial hr {
+    width: 1108px;
+    border-top: 1px solid #DEDDDD;
+    margin-bottom: 102px;
+}
+
+.charts {
+    display: flex;
+}
+
+.chart {
+    background-image: url(img/Chart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 211px;
+    width: 211px;
+    margin: 0px 31px;
+}
+
+.chart h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #274C5B;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.chart p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #274C5B;
+}
+
+/* СТИЛИ ДЛЯ 6 БЛОКА ЙОУ */
+
+.offer {
+    background-color: #274C5B;
+    padding-bottom: 200px;
+}
+
+.text-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.text-offer {
+    margin-right: 610px;
+    margin-top: 201px;
+}
+
+.text-offer label {
     font-size: 36px;
     font-family: "Yellowtail", cursive;
     color: #7EB693;
@@ -366,49 +613,301 @@ nav ul li a {
     margin-bottom: 8px;
 }
 
-.categories h1 {
+.text-offer h1 {
+    font-family: "Roboto", sans-serif;
     font-size: 50px;
-    font-family: "Roboto";
-    color: #274C5B;
     font-weight: 800;
-    margin-bottom: 40px;
-}
-
-.rows{
-    display: flex;
-}
-
-.card{
-    width: 335px;
-    height: 483px;
-    border-radius: 30px;
-    background-color: #F9F8F8;
-}
-
-.card h1{
-    font-family: "Roboto";
-    color: #274C5B;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.border{
-    height: 31px;
-    width: 96px;
-    background-color: #274C5B;
-    border-radius: 8px;
-    padding-top: 5px;
-}
-
-.border p{
     color: white;
-    font-family: "Open Sans", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    text-align: center;
 
 }
 
-.price{
+.text-button button {
+    background-color: #EFD372;
+    width: 256px;
+    height: 79px;
+    border-radius: 16px;
+    border: none;
     display: flex;
+    padding-left: 39px;
+    padding-top: 28px;
+    margin-top: 238px;
+    cursor: pointer;
+}
+
+.text-button button p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #274C5B;
+    margin-right: 10px;
+}
+
+.text-button button img {
+    margin-top: 3px;
+}
+
+/* СТИЛИ ДЛЯ 7 БЛОКА ЙОУ */
+.eco {
+    display: flex;
+    height: 952px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-placeholder {
+    flex: 1;
+    background-image: url(img/background-eco.png);
+    background-size: 978px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    position: absolute;
+    left: 900px;
+    top: 150px;
+    bottom: 130px;
+    width: 50%;
+}
+
+.eco-friendly {
+    color: #7EB693;
+    font-family: "Yellowtail", cursive;
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #274C5B;
+    margin-bottom: 35px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.section h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #274C5B;
+    margin-bottom: 7px;
+}
+
+.section p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+}
+
+/* СТИЛИ ДЛЯ 8 БЛОКА ЙОУ */
+.caterogies-card {
+    background-color: #F1F8F4;
+    height: 956px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-link-1 {
+    background-image: url(img/1.jpg);
+    height: 583px;
+    width: 612px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-link-2 {
+    background-image: url(img/2.jpg);
+    height: 583px;
+    width: 612px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-link-3 {
+    background-image: url(img/3.jpg);
+    height: 583px;
+    width: 612px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caterogies-card button {
+    width: 320px;
+    height: 96px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #274C5B;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* СТИЛИ ДЛЯ 9 БЛОКА ЙОУ */
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    background-image: url(img/background-news.jpg);
+    height: 323px;
+    width: 1400px;
+    border-radius: 30px;
+    margin-top: 164px;
+    margin-bottom: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news p {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-right: 326px;
+}
+
+.news input {
+    width: 349px;
+    height: 80px;
+    margin-right: 6px;
+    border-radius: 16px;
+    border: none;
+    color: #274C5B;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.news input:focus {
+    outline: none;
+}
+
+.news button {
+    width: 220px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #274C5B;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+/* СТИЛИ ДЛЯ ПОДВАЛА ЙОУ */
+
+footer {
+    padding-bottom: 75px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    position: relative;
+}
+
+.footer-section {
+    width: 30%;
+    text-align: left;
+    padding: 0 51px;
+}
+
+.footer-section h3 {
+    color: #2e5a5a;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #2e5a5a;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-info {
+    text-align: center;
+}
+
+.logo-info img.logo {
+    display: block;
+    margin: 0 auto 23px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media a img {
+    width: 60px;
+    height: 60px;
+    margin-top: 49px;
+}
+
+.footer-section:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+}
+
+.footer-section.contact {
+    text-align: right;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    color: #666;
+}
+
+.footer-bottom p {
+    margin: 0;
 }
